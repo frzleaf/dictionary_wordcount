@@ -1,0 +1,5 @@
+oxford:
+  api:
+    rootPath: "https://od-api.oxforddictionaries.com/api/v2"
+    appId: "64a95d89"
+    appKey: "ac631e137e648c8bd7315ff8423ca124"
