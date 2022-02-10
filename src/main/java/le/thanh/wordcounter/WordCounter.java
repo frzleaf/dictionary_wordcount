@@ -1,12 +1,12 @@
 package le.thanh.wordcounter;
 
 import le.thanh.wordcounter.dto.WordCounterResult;
-import le.thanh.wordcounter.service.SimpleHttpWordCounterService;
+import le.thanh.wordcounter.service.SimpleHtmlWordCounterService;
 import le.thanh.wordcounter.service.WordCounterService;
 
 public class WordCounter {
 
-    public static WordCounterService wordCounterService = new SimpleHttpWordCounterService();
+    public static WordCounterService wordCounterService = new SimpleHtmlWordCounterService();
 
     public static void main(String[] args) {
         if (args.length < 2) {

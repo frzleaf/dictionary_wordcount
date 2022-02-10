@@ -4,7 +4,7 @@ import le.thanh.wordcounter.dto.WordCounterResult;
 
 import java.util.StringTokenizer;
 
-public class SimpleHttpWordCounterService implements WordCounterService {
+public class SimpleHtmlWordCounterService implements WordCounterService {
 
     @Override
     public WordCounterResult count(String input) {

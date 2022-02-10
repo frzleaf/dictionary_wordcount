@@ -1,7 +1,7 @@
 package le.thanh.wordcounter;
 
 import le.thanh.wordcounter.dto.WordCounterResult;
-import le.thanh.wordcounter.service.SimpleHttpWordCounterService;
+import le.thanh.wordcounter.service.SimpleHtmlWordCounterService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -16,7 +16,7 @@ public class SimpleHttpWordCounterServiceTest {
 
     @Test
     public void testCounter() {
-        SimpleHttpWordCounterService counterService = new SimpleHttpWordCounterService();
+        SimpleHtmlWordCounterService counterService = new SimpleHtmlWordCounterService();
         WordCounterResult result = counterService.count(sampleInput);
         Assertions.assertEquals(result.getWords(), 198);
         Assertions.assertEquals(result.getSentences(), 7);
